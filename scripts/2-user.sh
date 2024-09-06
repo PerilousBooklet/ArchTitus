@@ -16,16 +16,16 @@ echo -ne "
                         SCRIPTHOME: ArchTitus
 -------------------------------------------------------------------------
 
-Installing AUR Softwares
+Installing AUR Packages
 "
-source $HOME/ArchTitus/configs/setup.conf
+#source $HOME/ArchTitus/configs/setup.conf
 
-  cd ~
-  mkdir "/home/$USERNAME/.cache"
-  touch "/home/$USERNAME/.cache/zshhistory"
-  git clone "https://github.com/ChrisTitusTech/zsh"
-  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-  ln -s "~/zsh/.zshrc" ~/.zshrc
+  #cd ~
+  #mkdir "/home/$USERNAME/.cache"
+  #touch "/home/$USERNAME/.cache/zshhistory"
+  #git clone "https://github.com/ChrisTitusTech/zsh"
+  #git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+  #ln -s "~/zsh/.zshrc" ~/.zshrc
 
 sed -n '/'$INSTALL_TYPE'/q;p' ~/ArchTitus/pkg-files/${DESKTOP_ENV}.txt | while read line
 do
@@ -61,12 +61,29 @@ export PATH=$PATH:~/.local/bin
 
 # Theming DE if user chose FULL installation
 if [[ $INSTALL_TYPE == "FULL" ]]; then
+  # KDE (to remove)
   if [[ $DESKTOP_ENV == "kde" ]]; then
     cp -r ~/ArchTitus/configs/.config/* ~/.config/
     pip install konsave
     konsave -i ~/ArchTitus/configs/kde.knsv
     sleep 1
     konsave -a kde
+ fi
+ # Cinnamon
+ if [[ $DESKTOP_ENV == "bspwm" ]]; then
+    # ...
+ fi
+ # BSPWM
+ if [[ $DESKTOP_ENV == "bspwm" ]]; then
+    # ...
+ fi
+ # ChadWM
+ if [[ $DESKTOP_ENV == "bspwm" ]]; then
+    # ...
+ fi
+ # River
+ if [[ $DESKTOP_ENV == "bspwm" ]]; then
+    # ...
  fi
 fi
 

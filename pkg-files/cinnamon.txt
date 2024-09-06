@@ -1,4 +1,6 @@
 cinnamon
-metacity 
-gnome-shell 
+thunar
+thunar-volman
+thunar-archive-plugin
+thunar-media-tags-plugin
 --END OF MINIMAL INSTALL--

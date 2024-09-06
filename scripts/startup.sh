@@ -197,7 +197,7 @@ echo -ne "
 ██║  ██║██║  ██║╚██████╗██║  ██║   ██║   ██║   ██║   ╚██████╔╝███████║
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
 ------------------------------------------------------------------------
-            Please select presetup settings for your system              
+            Please select pre-setup settings for your system              
 ------------------------------------------------------------------------
 "
 }
@@ -351,7 +351,7 @@ userinfo
 clear
 logo
 desktopenv
-# Set fixed options that installation uses if user choses server installation
+# Set fixed options that installation uses if user chooses server installation
 set_option INSTALL_TYPE MINIMAL
 set_option AUR_HELPER NONE
 if [[ ! $desktop_env == server ]]; then

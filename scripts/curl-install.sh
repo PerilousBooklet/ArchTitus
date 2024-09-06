@@ -12,8 +12,8 @@ fi
 echo "Installing git."
 pacman -Sy --noconfirm --needed git glibc
 
-echo "Cloning the ArchTitus Project"
-git clone https://github.com/christitustech/ArchTitus
+echo "Cloning PerilousBooklet's fork of the ArchTitus Project"
+git clone https://github.com/PerilousBooklet/ArchTitus
 
 echo "Executing ArchTitus Script"
 

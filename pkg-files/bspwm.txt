@@ -1,0 +1,12 @@
+bspwm
+sxhkd
+rofi
+polybar
+feh
+dunst
+picom
+i3lock
+imagemagick
+scrot
+python-pywal
+--END OF MINIMAL INSTALL--

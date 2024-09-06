@@ -1,3 +1,4 @@
-gnome
+river
+fuzzel
+waybar
 --END OF MINIMAL INSTALL--
-gnome-extra

@@ -1,4 +1,5 @@
 mesa
+mesa-utils
 xorg
 xorg-server
 xorg-apps
@@ -6,6 +7,7 @@ xorg-drivers
 xorg-xkill
 xorg-xinit
 xterm
+alacritty
 base-devel
 libx11
 libxft
@@ -17,13 +19,16 @@ linux-headers
 noto-fonts-emoji
 usbutils
 xdg-user-dirs
+bash-completion
 --END OF MINIMAL INSTALL--
 alsa-plugins
 alsa-utils
 autoconf
 automake
-awesome-terminal-fonts
-bash-completion
+ttf-sourcecodepro-nerd
+ttf-firacode-nerd
+noto-fonts
+noto-fonts-cjk
 bind
 bison
 bluez
@@ -32,8 +37,6 @@ bluez-utils
 bridge-utils
 btrfs-progs
 celluloid
-cmatrix
-code
 cronie
 cups
 dialog
@@ -49,10 +52,8 @@ fuse3
 fuseiso
 gamemode
 gcc
-gimp
 gparted
 gptfdisk
-grub-customizer
 gst-libav
 gst-plugins-good
 gst-plugins-ugly
@@ -63,7 +64,6 @@ kitty
 libdvdcss
 libtool
 lsof
-lutris
 lzop
 m4
 make
@@ -78,7 +78,6 @@ papirus-icon-theme
 patch
 picom
 pkgconf
-powerline-fonts
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -86,10 +85,8 @@ python-notify2
 python-psutil
 python-pyqt5
 python-pip
-qemu
 snap-pac
 snapper
-steam
 swtpm
 synergy
 terminus-font
@@ -100,13 +97,5 @@ ttf-roboto
 ufw
 unrar
 unzip
-virt-manager
-virt-viewer
 which
-wine-gecko
-wine-mono
-winetricks
 zip
-zsh
-zsh-syntax-highlighting
-zsh-autosuggestions
